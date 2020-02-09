@@ -6,7 +6,7 @@ public class DemoTest {
 
     @Test
     public void test_sum(){
-        assertEquals(new Demo().sum(2, 8), 10);
+        assertEquals(new Demo().sum(2, 9), 11);
     }
 
     @Test

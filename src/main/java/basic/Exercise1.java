@@ -1,4 +1,8 @@
 package basic;
 
-public class Exercise1 {
-}
+    public class Exercise1 {
+
+
+    }
+
+

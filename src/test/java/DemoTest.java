@@ -16,6 +16,6 @@ public class DemoTest {
 
     @Test
     public void test_multiple(){
-        assertEquals(new Demo().multiple(8, 3), 24);
+       assertEquals(new Demo().multiple(2,3), 6);
     }
 }

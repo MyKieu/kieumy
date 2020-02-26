@@ -1,6 +1,7 @@
 package basic;
 
 public class Exercise3 {
+
     public String phanTichSoNguyen(int n){
         String kq = "";
         if(n < 2)
@@ -9,9 +10,9 @@ public class Exercise3 {
             while (n % i == 0){
                 n /= i;
                 if(n==1)
-                    n += i;
-                else
                     kq += i + "*";
+                else
+                    n += i;
             }
         }
         return kq;
